@@ -5,6 +5,7 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+
 html, body {
 	margin: 0;
 	box-sizing: border-box;
@@ -62,5 +63,57 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+h1 {
+	display: inline;
+	font: bold;}
 
+em {
+	display: inline;
+}
+
+header {
+	background-color: rgba(39, 40, 41, 0.96);
+	color: lawngreen;
+	padding:25px;
+	text-align: center;
+}
+
+.instructions-wrapper {
+	border: solid;
+}
+
+.about-me {
+	background-color: blue;
+}
+
+table {
+	width: 100%;
+	border: .50px solid white;
+	color: limegreen;
+}
+
+th, td{
+	background-color: rgba(39, 40, 41, 0.96);
+	padding: 15px;
+	text-align: left;
+}
+
+.form-wrapper{
+	background-color: green ;
+	color: limegreen;
+	display: block;
+	padding: 15px;
+}
+
+.form-wrapper label {
+	display: block;
+	padding: 5px;
+}
+
+.form-wrapper button {
+	color: black;
+	background-color: limegreen;
+	border: none;
+	padding: 5px;
+}
 
