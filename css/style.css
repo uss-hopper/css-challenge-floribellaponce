@@ -135,6 +135,13 @@ About me styles
 	font-weight: bold;
 }
 
+/**
+Skills summary styles
+ */
+
+section:nth-child(4) h2 {
+	text-align: right;
+}
 
 table {
 	width: 100%;
@@ -148,10 +155,13 @@ th, td{
 	text-align: left;
 }
 
-.form-wrapper h2 {
-	text-align: left;
-}
+/**
+Contact form styles
+ */
 
+section:nth-child(5){
+	background-color: rgba(39, 40, 41, 0.96);
+}
 .form-wrapper {
 	background-color: darkgreen;
 	color: limegreen;
