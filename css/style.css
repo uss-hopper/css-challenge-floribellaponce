@@ -63,9 +63,17 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+.sfooter-content {
+	text-align: center;
+}
+* {
+	font-family: "Roboto M";
+}
+
 h1 {
 	display: inline;
-	font: bold;}
+	font: bold;
+}
 
 em {
 	display: inline;
@@ -79,11 +87,25 @@ header {
 }
 
 .instructions-wrapper {
+	display: flex;
 	border: solid;
+	margin: 2em 4em;
+}
+
+.instructions-content {
+	display: inline-block;
+	width: 50%;
+	padding-right: 18%;
+	padding-left: 1em;
 }
 
 .about-me {
 	background-color: blue;
+	display: block;
+}
+
+.container h2 {
+	text-align: right;
 }
 
 table {
@@ -103,11 +125,16 @@ th, td{
 	color: limegreen;
 	display: block;
 	padding: 15px;
-}
+}	border: solid;
+
 
 .form-wrapper label {
 	display: block;
 	padding: 5px;
+}
+
+.form-wrapper input, textarea {
+	display: block;
 }
 
 .form-wrapper button {
@@ -115,5 +142,21 @@ th, td{
 	background-color: limegreen;
 	border: none;
 	padding: 5px;
+	width: 10%;
 }
 
+.form-wrapper h2 {
+	font: bold;
+}
+
+.container.form-wrapper {
+	background-color: gray;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding:25px;
+	text-align: center;
+	font-size: small;
+}
