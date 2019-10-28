@@ -62,73 +62,79 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/**
+Global styles
+ */
 
-.sfooter-content {
-	text-align: center;
+body {
+	font-family: monospace, "Courier New";
 }
 
-* {
-	font-family: "Roboto M";
-}
-
-h1 {
-	display: inline;
-	font-width: bold;
-}
-
-em {
-	display: inline;
+section {
+	padding: 2.75em 0;
 }
 
 header {
 	background-color: rgba(39, 40, 41, 0.96);
 	color: lawngreen;
 	padding:25px;
-	text-align: center;
+	font-size: medium;
 }
+
+header h1 {
+	display: inline;
+	margin-right: 2rem;
+}
+
+/**
+welcome styles
+ */
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+/** Introduction styles
+ */
 
 .instructions-wrapper {
 	display: flex;
-	flex-direction: row;
-	border: solid;
-	margin: 2em 4em;
-	text-align: left;
-
+	align-items: flex-start;
+	border: 3px solid;
+	border-width: 5px;
+	padding: 20px;
 }
 
 .instructions-wrapper img {
-	padding: 1em;
-	height: 8em;
+	width: 250px;
 }
-.about-me .container {
-	display: block;
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
 }
+
+/**
+About me styles
+ */
 
 .about-me {
 	background-color: blue;
 	color: white;
-	text-align: left;
-
 }
 
-span {
+.about-me img{
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me span {
 	color: yellow;
 	font-weight: bold;
 }
 
-img[src*="welcome"] {
-	border: white;
-	border-style: solid;
-	margin: 2em 4em;
-}
-
-p {
-	;
-}
-
-.container h2 {
-	text-align: right;
-}
 
 table {
 	width: 100%;
