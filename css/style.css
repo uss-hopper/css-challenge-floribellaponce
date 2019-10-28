@@ -67,7 +67,7 @@ Global styles
  */
 
 body {
-	font-family: monospace, "Courier New";
+	font-family: monospace, "Roboto Thin";
 }
 
 section {
@@ -162,21 +162,23 @@ Contact form styles
 section:nth-child(5){
 	background-color: rgba(39, 40, 41, 0.96);
 }
+
 .form-wrapper {
 	background-color: darkgreen;
 	color: limegreen;
 	display: block;
-	padding: 15px;
+	padding: 15px 0 15px 20px;
 	text-align: left;
 }
 
 .form-wrapper label {
 	display: block;
-	padding: 5px;
+	margin: 15px 0 5px 0px;
 }
 
 .form-wrapper input, textarea {
-	display: block;
+	width: 30%;
+	padding: 8px;
 }
 
 .form-wrapper button {
@@ -184,18 +186,14 @@ section:nth-child(5){
 	background-color: lawngreen;
 	border: none;
 	padding: 5px;
-	width: 10%;
+	margin: 5px;
+	width: 7%;
 	font-weight: bold;
 }
 
-.form-wrapper h2 {
-	font-weight: bold;
-}
-
-.container.form-wrapper {
-	background-color: gray;
-}
-
+/**
+Footer styles
+ */
 footer {
 	background-color: black;
 	color: white;
